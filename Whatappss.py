@@ -3,9 +3,9 @@ import time
 
 time.sleep(5)
 
-text = open('mensaje.txt','r')
+text = open('Broma.txt','r')
 
-a = 'Te quiero mucho'
+a = 'Mensaje de prueba'
 
 for i in text:
   pg.write(a + ' ' + i )
